@@ -1,0 +1,18 @@
+.partner {
+    margin-bottom: 150px;
+}
+.partner .row {
+    gap: 110px 0;
+}
+.partner__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner__item img {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.partner__item img:hover {
+    transform: scale(1.1);
+}

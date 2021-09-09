@@ -1,0 +1,40 @@
+header {
+    background-color: #fff;
+}
+header a {
+    color: #393e46;
+}
+.navbar {
+    justify-content: space-between !important;
+    padding: 10px 0;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.nav-item {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.active a{
+    color: #007bff;
+}
+header a {
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link {
+    padding: 0 !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header__tool {
+    display: flex;
+    gap: 0px 40px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+@media (min-width: 992px) {
+    .nav-item {
+        margin-bottom: 0;
+    }
+}
